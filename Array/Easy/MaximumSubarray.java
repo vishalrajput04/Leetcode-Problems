@@ -2,6 +2,7 @@ class MaximumSubarray {
     public static void main(String[] arg) {
 
         //Kadane's Algorithm
+        //Time Complexity : O(n)
         
         int[] nums = {2,1,-3,4,-1,2,1,-5,4};
         int MaxSum = Integer.MIN_VALUE;
